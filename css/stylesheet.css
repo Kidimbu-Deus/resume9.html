@@ -1,0 +1,156 @@
+body{
+  font-family: sans-serif;
+  font-size:110%;
+  background-color: #fdfdfd;
+  display: flex;
+  flex-direction: column;
+  border: 15px solid;
+  border-color: rgba(0, 0, 0, 0.979); /*Set the color of border around the body to black*/
+  margin: 10px;
+  background-image: url(../images/06\ -\ IMG_9123\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-size: cover;
+
+}
+
+header{
+  text-align: center;
+  color: #fdfdfd; /*Set text color to white*/
+  background-color: #343330;
+  justify-content: center; /*Move the text to middle of the page*/
+  font-size: 25px;
+  margin: 15px;
+  margin-bottom: 0;
+
+}
+
+#profilePhoto{
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+  border: 5px solid rgb(0, 0, 0); /*Set color of border around headshot to black*/
+  margin-top: 15px;
+  background: transparent; /*Remove headshot background color*/
+}
+
+.main{display: flex;
+  flex-direction: row;
+  overflow:unset; /*Content fits perfectly on specified area*/
+  margin: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.listing{padding: 0; 
+  list-style: none; /*Removes bullet points where unwanted*/
+
+}
+footer{background-color: #343330;
+  text-align: center;
+  margin: 15px;
+  margin-top: 0;
+}
+
+#sidebar {background-color: rgba(87, 100, 98, 0.473);
+width: 200px; 
+padding: 1rem; 
+list-style:none;
+}
+
+#contents {padding: 1rem;
+}
+
+@media screen and (min-width:600px) {
+  body{
+    height: auto;
+    width: auto;
+    font-size:small;
+    display: block;
+    margin: auto;
+  }
+
+  header{
+    text-align:center;
+    font-size: small;
+    margin: auto;
+    margin-bottom: 0%;
+    height: auto;
+    width: auto;
+  }
+
+  footer{text-align: center;
+    height: auto;
+    width: auto;
+    margin: auto;
+    margin-bottom: 0%;
+
+  }
+  
+}
+
+@media screen and (min-width:768px) {
+  body{height: auto;
+    width: auto;
+    font-size: medium;
+    display: block;
+    margin: auto;
+   }
+
+   header{height: auto;
+    width: auto;
+    font-size: medium;
+    display: block;
+    margin: auto;
+  }
+
+  footer{height: auto;
+    width: auto;
+    font-size: medium;
+    display: block;
+    margin: auto;
+
+  }
+  
+}
+
+@media  screen and (min-width:992px) {
+  body{font-family: sans-serif;
+    font-size:110%;
+    background-color: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    border: 15px solid;
+    border-color: rgba(0, 0, 0, 0.979); /*Set the color of border around the body to black*/
+    margin: 10px;
+    background-image: url(../images/06\ -\ IMG_9123\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-size: cover;
+
+  }
+
+  header{text-align: center;
+    color: #fdfdfd; /*Set text color to white*/
+    background-color: #343330;
+    justify-content: center; /*Move the text to middle of the page*/
+    font-size: 25px;
+    margin: 15px;
+    margin-bottom: 0;
+  }
+
+  footer{background-color: #343330;
+    text-align: center;
+    margin: 15px;
+    margin-top: 0;
+
+  }
+  
+}
+
+
+
+
